@@ -1,15 +1,15 @@
 #include "stdafx.h"
 #include <stdio.h>
 #include <stdlib.h>
-//Библиотека для использования кириллицы
 #include "clocale"
 #include <locale>
 #include "Windows.h"
 #include <iostream>
-#include <fstream>// библиотека для работы с файлами
+#include <fstream>
 #include <string>
 #include <class.cpp>
 using namespace std;
+
 // В с++ методы доступа являются формальностью. Не существует жетского определения set и get. Любой член класса, возращающий значение private будет get
 
 class Menu // Класс меню
